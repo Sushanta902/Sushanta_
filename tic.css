@@ -1,0 +1,33 @@
+ #sky
+
+{
+width:10px;height:10px;border-radius: 20px;background: skyblue;position: absolute;left: 50%;top:50%
+}
+#red
+{
+  width:10px;height:10px;border-radius: 20px;background: red;position: absolute;left: 50%;top:50%
+}
+     
+
+      div {
+       animation: tik 1.1s linear infinite;
+        }
+
+      @keyframes tik {
+        0%{transform: translateX(0);}
+
+        25%{transform: translateX(8px);}
+        50%{width:13px;height:13px;}
+
+        75%{transform: translateX(-8px);}
+        
+        100%{transform: translateX(0);}
+
+      }
+      div:nth-child(1){
+       
+        background-color: red;animation-delay: .6s;}
+
+      }
+   
+      
